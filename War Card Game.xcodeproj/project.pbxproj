@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				4AC5DAE029894C5C005F8D87 /* README.md */,
-				4AC5DADD29894377005F8D87 /* lessons */,
+				4AC5DADD29894377005F8D87 /* Lessons */,
 				4A2E89182989234C004B203D /* WarCardGameApp */,
 				4A2E89292989234E004B203D /* WarCardGameAppTests */,
 				4A2E89332989234E004B203D /* WarCardGameAppUITests */,
@@ -132,12 +132,12 @@
 			path = WarCardGameAppUITests;
 			sourceTree = "<group>";
 		};
-		4AC5DADD29894377005F8D87 /* lessons */ = {
+		4AC5DADD29894377005F8D87 /* Lessons */ = {
 			isa = PBXGroup;
 			children = (
 				4AC5DADE2989438C005F8D87 /* lesson11-challenge.swift */,
 			);
-			path = lessons;
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,7 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"war-challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WarCardGameApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -458,7 +458,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"war-challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WarCardGameApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
