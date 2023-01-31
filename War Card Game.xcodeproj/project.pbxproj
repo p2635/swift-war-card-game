@@ -35,14 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A2E89162989234C004B203D /* War Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2E89162989234C004B203D /* War Card Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "War Card Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2E89192989234C004B203D /* war_challengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeApp.swift; sourceTree = "<group>"; };
 		4A2E891B2989234C004B203D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A2E891D2989234D004B203D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A2E89202989234E004B203D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4A2E89262989234E004B203D /* War ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2E89262989234E004B203D /* War Card GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Card GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2E892A2989234E004B203D /* war_challengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeTests.swift; sourceTree = "<group>"; };
-		4A2E89302989234E004B203D /* War ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2E89302989234E004B203D /* War Card GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "War Card GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A2E89342989234E004B203D /* war_challengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeUITests.swift; sourceTree = "<group>"; };
 		4A2E89362989234E004B203D /* war_challengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = war_challengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4AC5DADE2989438C005F8D87 /* lesson11-challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "lesson11-challenge.swift"; sourceTree = "<group>"; };
@@ -79,9 +79,9 @@
 			children = (
 				4AC5DAE029894C5C005F8D87 /* README.md */,
 				4AC5DADD29894377005F8D87 /* lessons */,
-				4A2E89182989234C004B203D /* war-challenge */,
-				4A2E89292989234E004B203D /* war-challengeTests */,
-				4A2E89332989234E004B203D /* war-challengeUITests */,
+				4A2E89182989234C004B203D /* WarCardGameApp */,
+				4A2E89292989234E004B203D /* WarCardGameAppTests */,
+				4A2E89332989234E004B203D /* WarCardGameAppUITests */,
 				4A2E89172989234C004B203D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +89,14 @@
 		4A2E89172989234C004B203D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A2E89162989234C004B203D /* War Challenge.app */,
-				4A2E89262989234E004B203D /* War ChallengeTests.xctest */,
-				4A2E89302989234E004B203D /* War ChallengeUITests.xctest */,
+				4A2E89162989234C004B203D /* War Card Game.app */,
+				4A2E89262989234E004B203D /* War Card GameTests.xctest */,
+				4A2E89302989234E004B203D /* War Card GameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A2E89182989234C004B203D /* war-challenge */ = {
+		4A2E89182989234C004B203D /* WarCardGameApp */ = {
 			isa = PBXGroup;
 			children = (
 				4A2E89192989234C004B203D /* war_challengeApp.swift */,
@@ -104,7 +104,7 @@
 				4A2E891D2989234D004B203D /* Assets.xcassets */,
 				4A2E891F2989234E004B203D /* Preview Content */,
 			);
-			path = "war-challenge";
+			path = WarCardGameApp;
 			sourceTree = "<group>";
 		};
 		4A2E891F2989234E004B203D /* Preview Content */ = {
@@ -115,21 +115,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		4A2E89292989234E004B203D /* war-challengeTests */ = {
+		4A2E89292989234E004B203D /* WarCardGameAppTests */ = {
 			isa = PBXGroup;
 			children = (
 				4A2E892A2989234E004B203D /* war_challengeTests.swift */,
 			);
-			path = "war-challengeTests";
+			path = WarCardGameAppTests;
 			sourceTree = "<group>";
 		};
-		4A2E89332989234E004B203D /* war-challengeUITests */ = {
+		4A2E89332989234E004B203D /* WarCardGameAppUITests */ = {
 			isa = PBXGroup;
 			children = (
 				4A2E89342989234E004B203D /* war_challengeUITests.swift */,
 				4A2E89362989234E004B203D /* war_challengeUITestsLaunchTests.swift */,
 			);
-			path = "war-challengeUITests";
+			path = WarCardGameAppUITests;
 			sourceTree = "<group>";
 		};
 		4AC5DADD29894377005F8D87 /* lessons */ = {
@@ -143,9 +143,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A2E89152989234C004B203D /* War Challenge */ = {
+		4A2E89152989234C004B203D /* War Card Game */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2E893A2989234E004B203D /* Build configuration list for PBXNativeTarget "War Challenge" */;
+			buildConfigurationList = 4A2E893A2989234E004B203D /* Build configuration list for PBXNativeTarget "War Card Game" */;
 			buildPhases = (
 				4A2E89122989234C004B203D /* Sources */,
 				4A2E89132989234C004B203D /* Frameworks */,
@@ -155,14 +155,14 @@
 			);
 			dependencies = (
 			);
-			name = "War Challenge";
+			name = "War Card Game";
 			productName = "war-challenge";
-			productReference = 4A2E89162989234C004B203D /* War Challenge.app */;
+			productReference = 4A2E89162989234C004B203D /* War Card Game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4A2E89252989234E004B203D /* War ChallengeTests */ = {
+		4A2E89252989234E004B203D /* War Card GameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2E893D2989234E004B203D /* Build configuration list for PBXNativeTarget "War ChallengeTests" */;
+			buildConfigurationList = 4A2E893D2989234E004B203D /* Build configuration list for PBXNativeTarget "War Card GameTests" */;
 			buildPhases = (
 				4A2E89222989234E004B203D /* Sources */,
 				4A2E89232989234E004B203D /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				4A2E89282989234E004B203D /* PBXTargetDependency */,
 			);
-			name = "War ChallengeTests";
+			name = "War Card GameTests";
 			productName = "war-challengeTests";
-			productReference = 4A2E89262989234E004B203D /* War ChallengeTests.xctest */;
+			productReference = 4A2E89262989234E004B203D /* War Card GameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		4A2E892F2989234E004B203D /* War ChallengeUITests */ = {
+		4A2E892F2989234E004B203D /* War Card GameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A2E89402989234E004B203D /* Build configuration list for PBXNativeTarget "War ChallengeUITests" */;
+			buildConfigurationList = 4A2E89402989234E004B203D /* Build configuration list for PBXNativeTarget "War Card GameUITests" */;
 			buildPhases = (
 				4A2E892C2989234E004B203D /* Sources */,
 				4A2E892D2989234E004B203D /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				4A2E89322989234E004B203D /* PBXTargetDependency */,
 			);
-			name = "War ChallengeUITests";
+			name = "War Card GameUITests";
 			productName = "war-challengeUITests";
-			productReference = 4A2E89302989234E004B203D /* War ChallengeUITests.xctest */;
+			productReference = 4A2E89302989234E004B203D /* War Card GameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4A2E89112989234C004B203D /* Build configuration list for PBXProject "War Challenge" */;
+			buildConfigurationList = 4A2E89112989234C004B203D /* Build configuration list for PBXProject "War Card Game" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,9 +232,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A2E89152989234C004B203D /* War Challenge */,
-				4A2E89252989234E004B203D /* War ChallengeTests */,
-				4A2E892F2989234E004B203D /* War ChallengeUITests */,
+				4A2E89152989234C004B203D /* War Card Game */,
+				4A2E89252989234E004B203D /* War Card GameTests */,
+				4A2E892F2989234E004B203D /* War Card GameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		4A2E89282989234E004B203D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A2E89152989234C004B203D /* War Challenge */;
+			target = 4A2E89152989234C004B203D /* War Card Game */;
 			targetProxy = 4A2E89272989234E004B203D /* PBXContainerItemProxy */;
 		};
 		4A2E89322989234E004B203D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4A2E89152989234C004B203D /* War Challenge */;
+			target = 4A2E89152989234C004B203D /* War Card Game */;
 			targetProxy = 4A2E89312989234E004B203D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -494,7 +494,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/War Challenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Card Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/War Card Game";
 			};
 			name = Debug;
 		};
@@ -513,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Challenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/War Challenge";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/War Card Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/War Card Game";
 			};
 			name = Release;
 		};
@@ -554,7 +554,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A2E89112989234C004B203D /* Build configuration list for PBXProject "War Challenge" */ = {
+		4A2E89112989234C004B203D /* Build configuration list for PBXProject "War Card Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2E89382989234E004B203D /* Debug */,
@@ -563,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2E893A2989234E004B203D /* Build configuration list for PBXNativeTarget "War Challenge" */ = {
+		4A2E893A2989234E004B203D /* Build configuration list for PBXNativeTarget "War Card Game" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2E893B2989234E004B203D /* Debug */,
@@ -572,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2E893D2989234E004B203D /* Build configuration list for PBXNativeTarget "War ChallengeTests" */ = {
+		4A2E893D2989234E004B203D /* Build configuration list for PBXNativeTarget "War Card GameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2E893E2989234E004B203D /* Debug */,
@@ -581,7 +581,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A2E89402989234E004B203D /* Build configuration list for PBXNativeTarget "War ChallengeUITests" */ = {
+		4A2E89402989234E004B203D /* Build configuration list for PBXNativeTarget "War Card GameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A2E89412989234E004B203D /* Debug */,
